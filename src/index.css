@@ -238,7 +238,7 @@ nav svg {
 
 .clear-btn:hover {
     background: var(--clr-red-light);
-    color: var(--clr-red-dark);
+    color: white;
     border-color: var(--clr-red-light);
 }
 
