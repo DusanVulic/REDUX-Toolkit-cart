@@ -32,7 +32,7 @@ Variables
 
 body {
     font-family: "Quicksand";
-    background: var(--clr-grey-10);
+    background: var(--clr-white);
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -238,7 +238,7 @@ nav svg {
 
 .clear-btn:hover {
     background: var(--clr-red-light);
-    color: white;
+    color: var(--clr-white);
     border-color: var(--clr-red-light);
 }
 
