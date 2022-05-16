@@ -10,6 +10,7 @@ import Modal from "./components/Modal";
 
 function App() {
   const { cartItems } = useSelector((store) => store.cart);
+  const { isOpen } = useSelector((store) => store.modal);
   useEffect(() => {
     dispatch(calculateTotals());
     // eslint-disable-next-line
@@ -18,7 +19,8 @@ function App() {
   const dispatch = useDispatch();
   return (
     <main>
-      <Modal />
+      {isOpen && <Modal />}
+
       <Navbar />
       <CartContainer />
     </main>
